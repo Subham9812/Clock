@@ -28,7 +28,7 @@ function displayTime() {
     let Dmm = new Date().getMinutes();
     let Dss = new Date().getSeconds();
 
-    // condition to change am to pm
+    // condition to change AM to PM
     let am = Dhh >= 12 ? "PM" : "AM";
 
     // convert 24hr clock to 12hr clock
